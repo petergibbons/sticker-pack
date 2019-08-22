@@ -110,18 +110,113 @@ public class HomeActivity extends AppCompatActivity {
         }
     }
 
+
     public static Sticker[] stickers = {
-        new Sticker("logo black", R.drawable.pg_logo_black,
-                "https://firebasestorage.googleapis.com/v0/b/gboardcustomsticker-fea6d.appspot.com/o/Pg-Logo-Black.png?alt=media&token=e07c50df-697a-40d7-a6a1-a8f5f53f7bba", new String [] {"playground","logo","black"}),
-        new Sticker("logo blue", R.drawable.pg_logo_blue,
-                    "https://firebasestorage.googleapis.com/v0/b/gboardcustomsticker-fea6d.appspot.com/o/Pg-Logo-Blue.png?alt=media&token=c1400515-36e9-4f2e-9e78-5171bdfa5339", new String [] {"playground","logo","blue"}),
-        new Sticker("logo gold", R.drawable.pg_logo_gold,
-                    "https://firebasestorage.googleapis.com/v0/b/gboardcustomsticker-fea6d.appspot.com/o/Pg-Logo-Gold.png?alt=media&token=0154c57c-ec2f-4f32-b706-f81fd68788d4", new String [] {"playground","logo","gold"}),
-        new Sticker("logo green", R.drawable.pg_logo_green,
-                    "https://firebasestorage.googleapis.com/v0/b/gboardcustomsticker-fea6d.appspot.com/o/Pg-Logo-Green.png?alt=media&token=2d5b1d18-230f-4401-a27d-1e035ced180a", new String [] {"playground","logo","green"}),
-        new Sticker("logo light blue", R.drawable.pg_logo_lightblue,
-                    "https://firebasestorage.googleapis.com/v0/b/gboardcustomsticker-fea6d.appspot.com/o/Pg-Logo-LightBlue.png?alt=media&token=0fa1713e-f589-4b1b-8ec7-5b81de8e1c3d", new String [] {"playground","logo","light blue"}),
-        new Sticker("logo red", R.drawable.pg_logo_red,
-                    "https://firebasestorage.googleapis.com/v0/b/gboardcustomsticker-fea6d.appspot.com/o/Pg-Logo-Red.png?alt=media&token=be40cb08-09e3-4f4b-808c-e81a0693fcac", new String [] {"playground","logo","red"})
+
+            new Sticker("beers", R.drawable.beers,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/Beers.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"beers","cheers","KC"}),
+
+            new Sticker("baseball", R.drawable.baseballballemoji,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/BaseballBallEmoji.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"baseball","KC"}),
+
+            new Sticker("bbq ribs", R.drawable.bbqribs,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/BBQribs.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"bbq","ribs","KC"}),
+
+            new Sticker("bbq", R.drawable.bbqsticker,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/BBQSticker.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"bbq","KC"}),
+
+            new Sticker("bond bridge", R.drawable.bondbridge,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/bondbridge.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"bond","bridge","KC"}),
+
+            new Sticker("cava", R.drawable.cava,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/Cava.gif?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"food","cava","KC"}),
+
+            new Sticker("crown town", R.drawable.crowntown_bb,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/CrownTown_BB.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"crown town","bbq","KC"}),
+
+            new Sticker("18th & Vine", R.drawable.eightteenvine,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/eightteenvine.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"beers","cheers","KC"}),
+
+            new Sticker("First Friday", R.drawable.firstfridays_cc,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/FirstFridays-CC.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"first friday","crossroads","KC"}),
+
+            new Sticker("BBQ 2", R.drawable.kansascity_bbq,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/kansascity_bbq.gif?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"bbq","KC"}),
+
+            new Sticker("Kauffman", R.drawable.kauffman,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/Kauffman.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"kauffman","KC"}),
+
+            new Sticker("KC Proud", R.drawable.kc_proud,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/KC_proud.gif?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"kc proud","proud","KC"}),
+
+            new Sticker("Football", R.drawable.kcfootball,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/KCFootball.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"football","chiefs","KC"}),
+
+            new Sticker("KC Logo", R.drawable.kclogo,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/KCLogo.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"logo","KC"}),
+
+            new Sticker("KC Proud 2", R.drawable.kcproud,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/KCProud.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"proud","KC", "kc proud"}),
+
+            new Sticker("KC Scout", R.drawable.kcscout,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/KCScout.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"scout","KC"}),
+
+            new Sticker("Soccer", R.drawable.kcsoccer,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/kcsoccer.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"soccer","sporting","KC"}),
+
+            new Sticker("Weather", R.drawable.kcweather,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/KCWeather.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"weather","cheers","KC"}),
+
+            new Sticker("Kemper", R.drawable.kemper,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/Kemper.gif?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"kemper","KC"}),
+
+            new Sticker("KS<->MO", R.drawable.ksmo,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/ksmo.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"ksmo","KC"}),
+
+            new Sticker("Liberty Memorial", R.drawable.libertymemorial,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/LibertyMemorial.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"liberty","memorial","KC"}),
+
+            new Sticker("Plaza Fountains", R.drawable.plazafountains,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/PlazaFountains.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"fountains","plaza","KC"}),
+
+            new Sticker("Pylons", R.drawable.pylons_copy,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/Pylons%20copy.png?alt=media&token=444b18e1-0e33-40a1-8714-a83fdfc325ad", new String [] {"pylons","bartle","KC"}),
+
+            new Sticker("Ride KC", R.drawable.ride_kansas_city,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/ride_kansas_city.gif?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"ride","streetcar","KC"}),
+
+            new Sticker("Rivermarket", R.drawable.rivermarket,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/RiverMarket.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"river market","market","KC"}),
+
+            new Sticker("Shuttlecock", R.drawable.shuttlecock,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/ShuttleCock.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"shuttlecock","cock","nelson","KC"}),
+
+            new Sticker("Art Museum", R.drawable.shuttlecocks_artmuseum,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/ShuttleCocks-ArtMuseum.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"shuttlecock","cock","nelson","KC", "art", "museum"}),
+
+            new Sticker("Strawberry Hill", R.drawable.strawberryhill,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/Strawberryhill.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"strawberry hill","KC"}),
+
+            new Sticker("Streetcar", R.drawable.streetcar,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/StreetCar.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"streetcar","KC"}),
+
+            new Sticker("Streetcar 2", R.drawable.streetcar_a,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/StreetCar_a.gif?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"streetcar","KC"}),
+
+            new Sticker("TD Travis", R.drawable.tdtravis,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/tdtravis.gif?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"touchdown","travis","KC"}),
+
+            new Sticker("The Rieger", R.drawable.therieger,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/TheRieger.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"rieger","food","KC"}),
+
+            new Sticker("Mahomes Goat", R.drawable.transparent_mahomes_goat,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/transparent_mahomes_goat.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"beers","cheers","KC"}),
+
+            new Sticker("Union Station", R.drawable.unionstation,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/unionstation.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"union station","KC"}),
+
+            new Sticker("Westport", R.drawable.westport,
+                    "https://firebasestorage.googleapis.com/v0/b/android-sticker-template-61244.appspot.com/o/westport.png?alt=media&token=17590bcc-587b-4aa8-a97a-5929c4cbf60f", new String [] {"westport","KC"})
+
     };
 }
